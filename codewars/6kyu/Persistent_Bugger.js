@@ -15,5 +15,4 @@ const persistence = (num) => {
   return outputIndex;
 };
 
-persistence(25); // 4
-// (because 9*9*9 = 729, 7*2*9 = 126, 1*2*6 = 12, and finally 1*2 = 2)
+persistence(25);
