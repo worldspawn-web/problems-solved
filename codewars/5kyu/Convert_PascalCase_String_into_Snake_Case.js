@@ -9,3 +9,14 @@ const toUnderscore = (string) => {
   if (output[output.length - 1] === '_') output.pop();
   return output.join('');
 };
+
+// VERY COOL SOLUTION:
+var toUnderscore2;
+
+toUnderscore2 = function (string) {
+  return string
+    .toString()
+    .split(/(?=[A-Z])/)
+    .join('_')
+    .toLowerCase();
+};
