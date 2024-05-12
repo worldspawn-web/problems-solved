@@ -11,4 +11,4 @@
 
 - <a href="./leetcode/">LeetCode</a>
 - <a href="./codewars/">CodeWars</a>
-- <a href="./interview/">Interview Tasks</a>
+- <a href="./interviews/">Interview Tasks</a>
